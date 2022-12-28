@@ -3,7 +3,7 @@ const { evalString, evalObject } = require("./evaluator");
 
 if (process.argv[2] != "") {
     	repl.start({
-		prompt: "AwDB $ ",
+		prompt: "AwDB$ ",
 		eval: evalString,
 	});
 }
